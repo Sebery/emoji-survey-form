@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Emoji Survey Form | By Sebery</title>
+		<link
+			rel="shortcut icon"
+			href="https://i.ibb.co/km3Z0Ky/title-Icon.png"
+			type="image/x-icon"
+		/>
+		<!-- STYLES -->
+		<link rel="stylesheet" href="/style.css" />
+		<!-- FONTS -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<!-- MAIN TITLES -->
+		<div id="titles">
+			<h1 id="title">Emoji Survey Form</h1>
+			<p id="description">
+				Share your feels by selecting your emojis preferences
+			</p>
+		</div>
+
+		<!-- MAIN REQUIRED FORM -->
+		<div id="main-form">
+			<form id="survey-form" action="">
+				<div id="name-container">
+					<label for="name" id="name-label">NAME</label>
+					<input
+						type="text"
+						name="name"
+						id="name"
+						placeholder="Enter your name"
+						required
+					/>
+				</div>
+
+				<div id="email-container">
+					<label for="email" id="email-label">EMAIL</label>
+					<input
+						type="email"
+						name="email"
+						id="email"
+						placeholder="Enter your email"
+						required
+					/>
+				</div>
+
+				<div id="age-container">
+					<label for="number" id="number-label">AGE</label>
+					<input
+						type="number"
+						name="number"
+						min="10"
+						max="50"
+						id="number"
+						placeholder="Enter your age"
+						required
+					/>
+				</div>
+
+				<div id="dropdown-container">
+					<label for="dropdown">HOW DO YOU FEEL?</label>
+					<select name="dropdown" id="dropdown" required>
+						<option value="">🙂</option>
+						<option value="">😤</option>
+						<option value="">😒</option>
+						<option value="">😥</option>
+						<option value="">😩</option>
+					</select>
+				</div>
+
+				<div id="prefer-container">
+					<p>Which one do you prefer?</p>
+					<label for="prefer">🕶</label>
+					<input type="radio" name="prefer" id="prefer-1" required />
+					<label for="prefer">👗</label>
+					<input type="radio" name="prefer" id="prefer-2" required />
+					<label for="prefer">💍</label>
+					<input type="radio" name="prefer" id="prefer-3" required />
+					<label for="prefer">👙</label>
+					<input type="radio" name="prefer" id="prefer-4" required />
+				</div>
+
+				<div id="represent-container">
+					<p>What does it represent for you? --> 🌎</p>
+					<label for="represent-1">Life</label>
+					<input value="" type="checkbox" name="represent-1" id="represent-1" />
+					<label for="represent-2">Big</label>
+					<input value="" type="checkbox" name="represent-2" id="represent-2" />
+					<label for="represent-3">Disaster</label>
+					<input value="" type="checkbox" name="represent-3" id="represent-3" />
+					<label for="represent-4">Root</label>
+					<input value="" type="checkbox" name="represent-4" id="represent-4" />
+					<label for="represent-5">Home</label>
+					<input value="" type="checkbox" name="represent-5" id="represent-5" />
+					<label for="represent-6">War</label>
+					<input value="" type="checkbox" name="represent-6" id="represent-6" />
+				</div>
+
+				<div id="comments-container">
+					<label for="textarea">Additional comments</label>
+					<textarea name="textarea" id="textarea" cols="30" rows="7"></textarea>
+				</div>
+
+				<div id="submit-button">
+					<button type="submit">Submit</button>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

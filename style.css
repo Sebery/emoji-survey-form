@@ -1,0 +1,98 @@
+/*************************************************************************/
+/**************************GENERAL STYLES*********************************/
+/*************************************************************************/
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	/*background: #fbdb36;*/
+	background: url(https://i.ibb.co/KqTMQjH/bg-Pattern.png);
+	color: white;
+	font-family: "Holtwood One SC", serif;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.17em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+h5 {
+	font-size: 0.83em;
+}
+
+h6 {
+	font-size: 0.67em;
+}
+
+/*************************************************************************/
+/**************************MAIN TITLES STYLES*****************************/
+/*************************************************************************/
+
+#titles {
+	width: 100%;
+	text-align: center;
+	background: #1f1e24;
+	color: white;
+	padding: 20px;
+}
+
+/*************************************************************************/
+/**************************MAIN REQUIRED FORM STYLES**********************/
+/*************************************************************************/
+
+#main-form {
+	display: flex;
+	width: 70%;
+	background: rgb(245, 245, 245);
+	color: black;
+	margin: 20px auto;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#main-form div {
+	margin-bottom: 15px;
+}
+
+#main-form label {
+	display: block;
+}
+
+#main-form form {
+	flex-grow: 1;
+}
+
+#main-form #name,
+#main-form #email,
+#main-form #number {
+	width: 100%;
+	height: 35px;
+	border-radius: 2px;
+	padding: 15px;
+	border: 1px solid rgb(214, 214, 214);
+	color: gray;
+}
+
+#prefer-container label,
+#represent-container label {
+	display: inline;
+}
+
+#comments-container textarea {
+	width: 100%;
+}
